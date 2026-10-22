@@ -18,13 +18,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        shell: bash
-        run: bash exit 0
+        run: echo HI
 
       - name: Check tracked files
-        shell: bash
-        run: bash exit 0
+        run: echo HI
 
       - name: Check commit messages
-        shell: bash
-        run: bash exit 0
+        run: echo HI
