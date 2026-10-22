@@ -5,6 +5,7 @@ default_install_hook_types: [pre-commit, commit-msg]
 minimum_prek_version: '0.5.5'
 default_language_version:
   node: '24.22.0'
+  golang: '1.27.3'
 
 # Exclude archived files from all checks.
 exclude: '^coursework-1/'
